@@ -98,4 +98,9 @@ class Rutenett {
         }
         return antLevende;
     }
+
+    // Ny metode til bruk i GUI.
+    public Celle[][] hentAlleCeller() {
+        return rutene;
+    }
 }

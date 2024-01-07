@@ -38,4 +38,9 @@ class Verden {
         }
         genNr++;
     }
+
+    // Ny metode til bruk i GUI.
+    public Rutenett hentRutenett() {
+        return rutenett;
+    }
 }
